@@ -1,0 +1,151 @@
+body {
+    
+    display: grid;
+    grid-template-areas:
+        "menulateral cabecalho"
+        "menulateral conteudoprincipal";
+    grid-template-columns: 190px auto;
+    grid-template-rows: auto 90vh;
+    margin: 0;
+    gap: 1px;
+    background-color: springgreen;
+}
+
+.conteudoprincipal {
+    grid-area: conteudoprincipal;
+    align-items: center;
+}
+
+.menulateral {
+    justify-content: center;
+    display: flex;
+    grid-area: menulateral;
+}
+
+
+.item {
+    width: 189px;
+    height: 29px;
+    background-color: gray;
+    color: white;
+    height: 60px;
+    border: solid 0px;
+    margin: 4px;
+}
+
+li {
+    margin: 1px;
+    padding: 0%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.item:hover {
+    
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.menulateral ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.menulateral nav {
+    
+    background-color: #4b2409;
+
+}
+.oi{
+    text-align: center;
+    justify-content: center;
+    margin: 20vh;
+    display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin-left: 500px;
+   
+}
+
+.wo{ 
+    text-align: center;
+    justify-content: center;
+    margin: 20vh;
+    display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin-left: 500px;
+   
+
+}
+.qw{
+    text-align: center;
+    justify-content: center;
+    margin: 20vh;
+    display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin-left: 500px
+}
+.qt{
+    text-align: center;
+    justify-content: center;
+    margin: 20vh;
+    display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin-left: 500px
+
+}
+.qy{
+    text-align: center;
+    justify-content: center;
+    margin: 20vh;
+    display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin-left: 500px
+}
+.yt{
+    text-align: center;
+    justify-content: center;
+    margin: 20vh;
+    display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin-left: 500px 
+}
+.mh{
+    text-align: center;
+    justify-content: center;
+    margin: 20vh;
+    display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin-left: 500px 
+
+}
+.iop{
+    text-align: center;
+    justify-content: center;
+    margin: 20vh;
+    display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin-left: 500px
+}
+.lp{
+    text-align: center;
+    justify-content: center;
+    margin: 20vh;
+    display: flex;
+   flex-direction: column;
+   width: 300px;
+   margin-left: 500px
+}
